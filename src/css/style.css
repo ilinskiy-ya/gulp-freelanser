@@ -1,0 +1,27 @@
+.body {
+  color: brown;
+  height: 1000px;
+  width: 200px;
+  background-color: brown;
+  font-size: 20px;
+}
+
+.text {
+  color: burlywood;
+  font-style: italic;
+}
+
+span {
+  font-size: 24px;
+}
+@media (max-width: 767px) {
+  span {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  div {
+    font-size: 15px;
+  }
+}
